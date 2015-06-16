@@ -10,6 +10,13 @@
       <Platform>Win32</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="some.cpp" />
+    <ClCompile Include="wrap.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="some.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{E240488D-C2E0-489D-B8B7-3DCE250FC895}</ProjectGuid>
     <RootNamespace>camerapy</RootNamespace>
@@ -74,13 +81,6 @@
       <AdditionalDependencies>CameraLibrary2010D.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\..\..\..\Documents\Visual Studio 2013\Projects\Andre1\Andre1\some.cpp" />
-    <ClCompile Include="..\..\..\..\..\Documents\Visual Studio 2013\Projects\Andre1\Andre1\wrap.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\..\..\..\Documents\Visual Studio 2013\Projects\Andre1\Andre1\some.h" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

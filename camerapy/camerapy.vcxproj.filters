@@ -15,15 +15,15 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\..\Documents\Visual Studio 2013\Projects\Andre1\Andre1\wrap.cpp">
+    <ClCompile Include="wrap.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\Documents\Visual Studio 2013\Projects\Andre1\Andre1\some.cpp">
+    <ClCompile Include="some.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\..\..\Documents\Visual Studio 2013\Projects\Andre1\Andre1\some.h">
+    <ClInclude Include="some.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
